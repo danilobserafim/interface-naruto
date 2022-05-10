@@ -1,0 +1,49 @@
+.primary{
+    transition: 0.3s;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background-color: rgb(224, 106, 27);
+    color: white;
+
+}
+.primary:hover{
+    background-color: rgb(196, 93, 24);
+
+}
+
+.secondary{
+    transition: 0.3s;
+    width: 160px;
+    padding: 8px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: black;
+    background-color: white;
+}
+.secondary:hover{
+    background-color: rgba(122, 122, 122, 0.5);
+    color: white;
+    background-color: rgba(71, 71, 71, 0.507);
+   
+}
+
+.disabled{
+    width: 160px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: gray;
+
+}
+.disabled:hover{
+    background-color: rgba(202, 202, 202, 0.39);
+
+    cursor: not-allowed;
+}

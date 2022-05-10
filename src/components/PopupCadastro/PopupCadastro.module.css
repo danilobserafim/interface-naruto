@@ -1,0 +1,58 @@
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 25vh 0;
+    overflow-x: none;
+
+    
+}
+.container h2{
+    width: max-content;
+}
+.container form{
+
+    animation-name: fade;
+    animation-duration: 1s;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 56px;
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.container .close{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: transparent;
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.container form input, .btnSubmit{
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.btnSubmit{
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btnSubmit:hover{
+    background: rgb(0, 87, 0);
+}

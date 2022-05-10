@@ -1,0 +1,42 @@
+.banner{
+    background:linear-gradient(to right bottom, rgba(255, 255, 255, 0), rgba(0, 3, 100, 0.349));
+    margin: 0 auto;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.banner article h1{
+    font-size: 160%;
+}
+.banner p{
+    margin-top: 64px;
+    font-size: 150%;
+    letter-spacing: 1px;
+    line-height: 40px;
+    width: 40vw;
+
+}
+.banner article{
+    padding: 32px 16px;
+}
+.banner img{
+    height: 20vw;
+    width: 40vw;
+}
+
+@media (max-width:1000px) {
+    .banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.774),rgba(0, 0, 0, 0.425)),
+         url('/public/frontBanner.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+    }
+    .banner img{
+        display: none;
+    }
+    .banner p {
+        width: 100%;
+    }
+}

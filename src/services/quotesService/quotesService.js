@@ -1,0 +1,1 @@
+export const getQuotes = () => fetch("http://localhost:4000/clientes").then(response => response.json())

@@ -1,0 +1,31 @@
+.container{
+   
+
+    position: relative;
+    height: 100%;
+}
+.container h3{
+    margin-top: 32px;
+}
+.produto{
+    font-size: 1.2rem;
+    margin-top: 16px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+    display: flex;
+    justify-content: space-between;
+}
+.produto span{
+    text-align: left;
+}
+.total{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 1.2rem;
+
+}

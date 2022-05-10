@@ -1,0 +1,177 @@
+@keyframes fade {
+    from{opacity: 0.5;}
+    to{opacity: 1;}
+}
+
+
+*{
+    animation-name: fade;
+    animation-duration: 0.5s;
+
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.container{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/backgoundNaruto.jpg') no-repeat center;
+    background-blend-mode: luminosity;
+    background-size: cover;
+
+}
+.container img, .container article{
+    width: 40vw;
+    
+}
+.container img{
+    height: 100vh;
+    align-self: flex-end;
+}
+.container article{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2));
+    padding: 32px;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+
+.container article p{
+    color: white;
+    width: 80%;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-shadow: 1px 1px black;
+}
+.container article span{
+    display: block;
+    text-align: right;
+    color: white;
+    margin-top: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 10vh;
+
+    background: rgb(0,3,28);
+    color: white;
+
+}
+.nav{
+    list-style: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: left;
+    
+    padding: 8px;
+
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+}
+.nav img{
+    display: none;
+}
+.nav li{
+    border-radius: 4px;
+}
+
+.nav li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.nav button{
+    background: transparent;
+    color: white;
+
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+
+    border: 1px solid rgba(233, 233, 233, 0.541);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px 24px;
+    transition: 0.2s;
+    
+}
+.nav button:hover{
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+.main{
+    padding: 16px;
+    color: white;
+    background: linear-gradient(to right bottom, rgb(0, 9, 66), rgb(0,3,28), rgb(0, 9, 66));
+    background-attachment: fixed;
+}
+
+@media (max-width:800px) {
+    .header{
+        justify-content: space-between;
+        padding: 16px 64px;
+    }
+    .nav{
+        background: rgb(0,3,28);
+        width: 150px;
+        height: 0;
+        top: 8px;
+        right: 0px;
+        position: absolute;
+        flex-direction: column;
+        transition: 0.5s;
+
+    }
+    .nav img{
+        height: 32px;
+        display: block;
+        cursor: pointer;
+    }
+    .nav li, .nav button{
+        transition: 0.5s;
+        padding: 8px;
+        display: none;
+    }
+    .nav:hover li, .nav:hover button{
+
+        width: 100%;
+        display: block;
+    }
+   
+    .nav:hover{
+        height: 100vh;
+    }
+
+}*/

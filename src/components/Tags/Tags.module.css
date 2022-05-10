@@ -1,0 +1,42 @@
+.tags{
+    margin: 64px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 32px;
+    
+}
+.tag{
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.001), rgba(0, 3, 100, 0.3));
+    padding:32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 300px;
+    text-shadow: 1px 1px black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(102, 102, 102, 0.301);
+}
+.tag a {
+    text-align: center;
+    color: white;
+    background-color: rgba(114, 114, 114, 0.473);
+    padding: 8px;
+}
+.tag a:hover{
+    background-color: black;
+    color: wheat;
+}
+
+
+@media (max-width:1000px) {
+    .tag{
+        font-size: 150%;
+        justify-content: space-around;
+        height: 60vh;
+        max-width: 100%;
+    }
+    .tag #complementar{
+        display: block;
+    }
+}

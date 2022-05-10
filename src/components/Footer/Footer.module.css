@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+
+    background: rgb(0,3,28);
+    color: white;
+    
+    padding: 64px 0;
+
+}
+.container h4{
+    font-size: 1.5rem;
+}
+.container ul{
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
+}
+@media (max-width:800px) {
+    .container img{
+        width: fit-content;
+        height: 80vw;
+    }
+}
